@@ -1,0 +1,1172 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+<title>Static Call Graph - [F:\work\Fingerprint_Lock\code\Fingerprint_Lock_v0.1\User\fingerprint_lock.axf]</title></head>
+<body><HR>
+<H1>Static Call Graph for image F:\work\Fingerprint_Lock\code\Fingerprint_Lock_v0.1\User\fingerprint_lock.axf</H1><HR>
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, RVCT4.0 [Build 524]: Last Updated: Sat Aug 05 11:08:49 2017
+<BR><P>
+<H3>Maximum Stack Usage =         72 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
+Call chain for Maximum Stack Depth:</H3>
+__rt_entry_main &rArr; main &rArr; LIS3DH_Check &rArr; LIS3DH_Get6DPosition &rArr; LIS3DH_ReadReg &rArr; SPI2_ReadWriteByte
+<P>
+<H3>
+Functions with no stack information
+</H3><UL>
+ <LI><a href="#[1e6c748]">__user_initial_stackheap</a>
+</UL>
+</UL>
+<P>
+<H3>
+Mutually Recursive functions
+</H3> <LI><a href="#[1e6c61c]">NMI_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[1e6c61c]">NMI_Handler</a><BR>
+ <LI><a href="#[1e6c5e0]">HardFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[1e6c5e0]">HardFault_Handler</a><BR>
+ <LI><a href="#[1e6c5a4]">MemManage_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[1e6c5a4]">MemManage_Handler</a><BR>
+ <LI><a href="#[1e6c568]">BusFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[1e6c568]">BusFault_Handler</a><BR>
+ <LI><a href="#[1e6c52c]">UsageFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[1e6c52c]">UsageFault_Handler</a><BR>
+ <LI><a href="#[1e6c4f0]">SVC_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[1e6c4f0]">SVC_Handler</a><BR>
+ <LI><a href="#[1e6c4b4]">DebugMon_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[1e6c4b4]">DebugMon_Handler</a><BR>
+ <LI><a href="#[1e6c478]">PendSV_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[1e6c478]">PendSV_Handler</a><BR>
+ <LI><a href="#[1e6c43c]">SysTick_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[1e6c43c]">SysTick_Handler</a><BR>
+ <LI><a href="#[1e6c400]">ADC_IRQHandler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[1e6c400]">ADC_IRQHandler</a><BR>
+</UL>
+<P>
+<H3>
+Function Pointers
+</H3><UL>
+ <LI><a href="#[1e6c658]">Reset_Handler</a>
+ <LI><a href="#[1e6c61c]">NMI_Handler</a>
+ <LI><a href="#[1e6c5e0]">HardFault_Handler</a>
+ <LI><a href="#[1e6c5a4]">MemManage_Handler</a>
+ <LI><a href="#[1e6c568]">BusFault_Handler</a>
+ <LI><a href="#[1e6c52c]">UsageFault_Handler</a>
+ <LI><a href="#[1e6c4f0]">SVC_Handler</a>
+ <LI><a href="#[1e6c4b4]">DebugMon_Handler</a>
+ <LI><a href="#[1e6c478]">PendSV_Handler</a>
+ <LI><a href="#[1e6c43c]">SysTick_Handler</a>
+ <LI><a href="#[1e6ba28]">WWDG_IRQHandler</a>
+ <LI><a href="#[1e6bed8]">PVD_IRQHandler</a>
+ <LI><a href="#[1e6bd70]">TAMPER_IRQHandler</a>
+ <LI><a href="#[1e6be24]">RTC_IRQHandler</a>
+ <LI><a href="#[1e6c004]">FLASH_IRQHandler</a>
+ <LI><a href="#[1e6be9c]">RCC_IRQHandler</a>
+ <LI><a href="#[1e6c1a8]">EXTI0_IRQHandler</a>
+ <LI><a href="#[1e6c130]">EXTI1_IRQHandler</a>
+ <LI><a href="#[1e6c0f4]">EXTI2_IRQHandler</a>
+ <LI><a href="#[1e6c0b8]">EXTI3_IRQHandler</a>
+ <LI><a href="#[1e6c07c]">EXTI4_IRQHandler</a>
+ <LI><a href="#[1e6c34c]">DMAChannel1_IRQHandler</a>
+ <LI><a href="#[1e6c310]">DMAChannel2_IRQHandler</a>
+ <LI><a href="#[1e6c2d4]">DMAChannel3_IRQHandler</a>
+ <LI><a href="#[1e6c298]">DMAChannel4_IRQHandler</a>
+ <LI><a href="#[1e6c25c]">DMAChannel5_IRQHandler</a>
+ <LI><a href="#[1e6c220]">DMAChannel6_IRQHandler</a>
+ <LI><a href="#[1e6c1e4]">DMAChannel7_IRQHandler</a>
+ <LI><a href="#[1e6c400]">ADC_IRQHandler</a>
+ <LI><a href="#[1e6baa0]">USB_HP_CAN_TX_IRQHandler</a>
+ <LI><a href="#[1e6ba64]">USB_LP_CAN_RX0_IRQHandler</a>
+ <LI><a href="#[1e6c3c4]">CAN_RX1_IRQHandler</a>
+ <LI><a href="#[1e6c388]">CAN_SCE_IRQHandler</a>
+ <LI><a href="#[1e6c040]">EXTI9_5_IRQHandler</a>
+ <LI><a href="#[1e6bd34]">TIM1_BRK_IRQHandler</a>
+ <LI><a href="#[1e6bc80]">TIM1_UP_IRQHandler</a>
+ <LI><a href="#[1e6bcbc]">TIM1_TRG_COM_IRQHandler</a>
+ <LI><a href="#[1e6bcf8]">TIM1_CC_IRQHandler</a>
+ <LI><a href="#[1e6bc44]">TIM2_IRQHandler</a>
+ <LI><a href="#[1e6bc08]">TIM3_IRQHandler</a>
+ <LI><a href="#[1e6bbcc]">TIM4_IRQHandler</a>
+ <LI><a href="#[1e6bf8c]">I2C1_EV_IRQHandler</a>
+ <LI><a href="#[1e6bfc8]">I2C1_ER_IRQHandler</a>
+ <LI><a href="#[1e6bf14]">I2C2_EV_IRQHandler</a>
+ <LI><a href="#[1e6bf50]">I2C2_ER_IRQHandler</a>
+ <LI><a href="#[1e6bde8]">SPI1_IRQHandler</a>
+ <LI><a href="#[1e6bdac]">SPI2_IRQHandler</a>
+ <LI><a href="#[1e6bb90]">USART1_IRQHandler</a>
+ <LI><a href="#[1e6bb54]">USART2_IRQHandler</a>
+ <LI><a href="#[1e6bb18]">USART3_IRQHandler</a>
+ <LI><a href="#[1e6c16c]">EXTI15_10_IRQHandler</a>
+ <LI><a href="#[1e6be60]">RTCAlarm_IRQHandler</a>
+ <LI><a href="#[1e6badc]">USBWakeUp_IRQHandler</a>
+ <LI><a href="#[1e65d1c]">__main</a>
+ <LI><a href="#[1e61e88]">__I$use$semihosting</a>
+</UL>
+<P>
+<H3>
+Global Symbols
+</H3>
+<P><STRONG><a name="[1e65d1c]"></a>__main</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, __main.o(!!!main))
+<BR><BR>[Calls]<UL><LI><a href="#[1e5f944]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+<LI><a href="#[1e65bf0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry
+</UL>
+
+<P><STRONG><a name="[1e5f944]"></a>__scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter))
+<BR><BR>[Called By]<UL><LI><a href="#[1e65d1c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main
+</UL>
+
+<P><STRONG><a name="[1e5f908]"></a>__scatterload_rt2</STRONG> (Thumb, 44 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e65bf0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry
+</UL>
+
+<P><STRONG><a name="[1e5f8cc]"></a>__scatterload_rt2_thumb_only</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
+
+<P><STRONG><a name="[1e5f890]"></a>__scatterload_null</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
+
+<P><STRONG><a name="[1e5f6ec]"></a>__scatterload_copy</STRONG> (Thumb, 26 bytes, Stack size unknown bytes, __scatter_copy.o(!!handler_copy), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e5f6ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload_copy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e5f6ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload_copy
+</UL>
+
+<P><STRONG><a name="[1e5f5fc]"></a>__scatterload_zeroinit</STRONG> (Thumb, 28 bytes, Stack size unknown bytes, __scatter_zi.o(!!handler_zi), UNUSED)
+
+<P><STRONG><a name="[1e64de0]"></a>__rt_lib_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit.o(.ARM.Collect$$libinit$$00000000))
+<BR><BR>[Called By]<UL><LI><a href="#[1e65740]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_li
+</UL>
+
+<P><STRONG><a name="[1e632b0]"></a>__rt_lib_init_alloca_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000002A))
+
+<P><STRONG><a name="[1e63328]"></a>__rt_lib_init_argv_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000028))
+
+<P><STRONG><a name="[1e636e8]"></a>__rt_lib_init_atexit_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000017))
+
+<P><STRONG><a name="[1e63580]"></a>__rt_lib_init_clock_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001D))
+
+<P><STRONG><a name="[1e631c0]"></a>__rt_lib_init_cpp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000002E))
+
+<P><STRONG><a name="[1e63238]"></a>__rt_lib_init_exceptions_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000002C))
+
+<P><STRONG><a name="[1e635f8]"></a>__rt_lib_init_fp_trap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001B))
+
+<P><STRONG><a name="[1e63508]"></a>__rt_lib_init_getenv_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001F))
+
+<P><STRONG><a name="[1e63ae4]"></a>__rt_lib_init_heap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000006))
+
+<P><STRONG><a name="[1e63940]"></a>__rt_lib_init_lc_collate_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000D))
+
+<P><STRONG><a name="[1e638c8]"></a>__rt_lib_init_lc_ctype_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000F))
+
+<P><STRONG><a name="[1e63850]"></a>__rt_lib_init_lc_monetary_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000011))
+
+<P><STRONG><a name="[1e637d8]"></a>__rt_lib_init_lc_numeric_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000013))
+
+<P><STRONG><a name="[1e63760]"></a>__rt_lib_init_lc_time_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000015))
+
+<P><STRONG><a name="[1e639f4]"></a>__rt_lib_init_rand_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000A))
+
+<P><STRONG><a name="[1e63184]"></a>__rt_lib_init_return</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000002F))
+
+<P><STRONG><a name="[1e63670]"></a>__rt_lib_init_signal_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000019))
+
+<P><STRONG><a name="[1e63490]"></a>__rt_lib_init_stdio_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000021))
+
+<P><STRONG><a name="[1e63a6c]"></a>__rt_lib_init_user_alloc_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000008))
+
+<P><STRONG><a name="[1e621d0]"></a>__rt_lib_shutdown</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown.o(.ARM.Collect$$libshutdown$$00000000))
+<BR><BR>[Called By]<UL><LI><a href="#[1e62a04]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_exit_ls
+</UL>
+
+<P><STRONG><a name="[1e61564]"></a>__rt_lib_shutdown_fp_trap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000006))
+
+<P><STRONG><a name="[1e61384]"></a>__rt_lib_shutdown_heap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000E))
+
+<P><STRONG><a name="[1e61348]"></a>__rt_lib_shutdown_return</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000F))
+
+<P><STRONG><a name="[1e614b0]"></a>__rt_lib_shutdown_signal_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000009))
+
+<P><STRONG><a name="[1e61618]"></a>__rt_lib_shutdown_stdio_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000003))
+
+<P><STRONG><a name="[1e61438]"></a>__rt_lib_shutdown_user_alloc_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000B))
+
+<P><STRONG><a name="[1e65bf0]"></a>__rt_entry</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtentry.o(.ARM.Collect$$rtentry$$00000000))
+<BR><BR>[Called By]<UL><LI><a href="#[1e5f908]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload_rt2
+<LI><a href="#[1e65d1c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main
+</UL>
+
+<P><STRONG><a name="[1e657f4]"></a>__rt_entry_presh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtentry2.o(.ARM.Collect$$rtentry$$00000002))
+
+<P><STRONG><a name="[1e65470]"></a>__rt_entry_sh</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtentry4.o(.ARM.Collect$$rtentry$$00000004))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8 + Unknown Stack Size
+<LI>Call Chain = __rt_entry_sh &rArr; __user_setup_stackheap
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e65344]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_setup_stackheap
+</UL>
+
+<P><STRONG><a name="[1e65740]"></a>__rt_entry_li</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtentry2.o(.ARM.Collect$$rtentry$$0000000A))
+<BR><BR>[Calls]<UL><LI><a href="#[1e64de0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init
+</UL>
+
+<P><STRONG><a name="[1e6577c]"></a>__rt_entry_postsh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtentry2.o(.ARM.Collect$$rtentry$$00000009))
+
+<P><STRONG><a name="[1e6568c]"></a>__rt_entry_main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtentry2.o(.ARM.Collect$$rtentry$$0000000D))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72 + Unknown Stack Size
+<LI>Call Chain = __rt_entry_main &rArr; main &rArr; LIS3DH_Check &rArr; LIS3DH_Get6DPosition &rArr; LIS3DH_ReadReg &rArr; SPI2_ReadWriteByte
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e651dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit
+<LI><a href="#[1e6a948]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[1e656c8]"></a>__rt_entry_postli_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtentry2.o(.ARM.Collect$$rtentry$$0000000C))
+
+<P><STRONG><a name="[1e64660]"></a>__rt_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit.o(.ARM.Collect$$rtexit$$00000000))
+<BR><BR>[Called By]<UL><LI><a href="#[1e651dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit
+</UL>
+
+<P><STRONG><a name="[1e62a04]"></a>__rt_exit_ls</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000003))
+<BR><BR>[Calls]<UL><LI><a href="#[1e621d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_shutdown
+</UL>
+
+<P><STRONG><a name="[1e62a40]"></a>__rt_exit_prels_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000002))
+
+<P><STRONG><a name="[1e629c8]"></a>__rt_exit_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000004))
+<BR><BR>[Calls]<UL><LI><a href="#[1e626bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_sys_exit
+</UL>
+
+<P><STRONG><a name="[1e6c658]"></a>Reset_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+
+<P><STRONG><a name="[1e6c61c]"></a>NMI_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[1e6c61c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NMI_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e6c61c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NMI_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6c5e0]"></a>HardFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[1e6c5e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e6c5e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6c5a4]"></a>MemManage_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[1e6c5a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MemManage_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e6c5a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MemManage_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6c568]"></a>BusFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[1e6c568]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BusFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e6c568]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BusFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6c52c]"></a>UsageFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[1e6c52c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UsageFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e6c52c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UsageFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6c4f0]"></a>SVC_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[1e6c4f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SVC_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e6c4f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SVC_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6c4b4]"></a>DebugMon_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[1e6c4b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DebugMon_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e6c4b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DebugMon_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6c478]"></a>PendSV_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[1e6c478]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PendSV_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e6c478]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PendSV_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6c43c]"></a>SysTick_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[1e6c43c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e6c43c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6c400]"></a>ADC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[1e6c400]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_IRQHandler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e6c400]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_IRQHandler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6c3c4]"></a>CAN_RX1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6c388]"></a>CAN_SCE_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6c34c]"></a>DMAChannel1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6c310]"></a>DMAChannel2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6c2d4]"></a>DMAChannel3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6c298]"></a>DMAChannel4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6c25c]"></a>DMAChannel5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6c220]"></a>DMAChannel6_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6c1e4]"></a>DMAChannel7_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6c1a8]"></a>EXTI0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6c16c]"></a>EXTI15_10_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6c130]"></a>EXTI1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6c0f4]"></a>EXTI2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6c0b8]"></a>EXTI3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6c07c]"></a>EXTI4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6c040]"></a>EXTI9_5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6c004]"></a>FLASH_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6bfc8]"></a>I2C1_ER_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6bf8c]"></a>I2C1_EV_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6bf50]"></a>I2C2_ER_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6bf14]"></a>I2C2_EV_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6bed8]"></a>PVD_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6be9c]"></a>RCC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6be60]"></a>RTCAlarm_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6be24]"></a>RTC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6bde8]"></a>SPI1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6bdac]"></a>SPI2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6bd70]"></a>TAMPER_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6bd34]"></a>TIM1_BRK_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6bcf8]"></a>TIM1_CC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6bcbc]"></a>TIM1_TRG_COM_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6bc80]"></a>TIM1_UP_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6bc44]"></a>TIM2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6bc08]"></a>TIM3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6bbcc]"></a>TIM4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6bb90]"></a>USART1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6bb54]"></a>USART2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6bb18]"></a>USART3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6badc]"></a>USBWakeUp_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6baa0]"></a>USB_HP_CAN_TX_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6ba64]"></a>USB_LP_CAN_RX0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6ba28]"></a>WWDG_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, stm32f10x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e6c748]"></a>__user_initial_stackheap</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, stm32f10x.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[1e65344]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_setup_stackheap
+</UL>
+
+<P><STRONG><a name="[1e6a948]"></a>main</STRONG> (Thumb, 56 bytes, Stack size 16 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = main &rArr; LIS3DH_Check &rArr; LIS3DH_Get6DPosition &rArr; LIS3DH_ReadReg &rArr; SPI2_ReadWriteByte
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e6a72c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI2_SetSpeed
+<LI><a href="#[1e6a768]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI2_Init
+<LI><a href="#[1e6a7a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MotorREV
+<LI><a href="#[1e6a7e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MotorInit
+<LI><a href="#[1e6a81c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MotorFWD
+<LI><a href="#[1e6a858]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_Init
+<LI><a href="#[1e6a894]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_Check
+<LI><a href="#[1e6a8d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;KEY_Scan
+<LI><a href="#[1e6a90c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;KEY_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e6568c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_main
+</UL>
+
+<P><STRONG><a name="[1e6a90c]"></a>KEY_Init</STRONG> (Thumb, 64 bytes, Stack size 8 bytes, key.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = KEY_Init &rArr; GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e6a060]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB2PeriphClockCmd
+<LI><a href="#[1e6a0d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e6a948]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[1e6a8d0]"></a>KEY_Scan</STRONG> (Thumb, 164 bytes, Stack size 16 bytes, key.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = KEY_Scan
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e6a024]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
+<LI><a href="#[1e6a09c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_ReadInputDataBit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e6a948]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[1e6a7e0]"></a>MotorInit</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, motor.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = MotorInit &rArr; GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e6a060]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB2PeriphClockCmd
+<LI><a href="#[1e6a0d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e6a948]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[1e6a81c]"></a>MotorFWD</STRONG> (Thumb, 54 bytes, Stack size 24 bytes, motor.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = MotorFWD
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e69c64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Write
+<LI><a href="#[1e6a024]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e6a948]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[1e6a7a4]"></a>MotorREV</STRONG> (Thumb, 56 bytes, Stack size 24 bytes, motor.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = MotorREV
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e69c64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Write
+<LI><a href="#[1e6a024]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e6a948]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[1e697b4]"></a>LIS3DH_ReadReg</STRONG> (Thumb, 18 bytes, Stack size 16 bytes, lis3dh_driver.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = LIS3DH_ReadReg &rArr; SPI2_ReadWriteByte
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e68bfc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI2_ReadWriteByte
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e68c38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetSPIInterface
+<LI><a href="#[1e68c74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_GetFifoSourceFSS
+<LI><a href="#[1e68cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_GetFifoSourceBit
+<LI><a href="#[1e68cec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_GetFifoSourceReg
+<LI><a href="#[1e68d28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_GetInt1SrcBit
+<LI><a href="#[1e68d64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_GetInt1Src
+<LI><a href="#[1e68da0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_GetAccAxesRaw
+<LI><a href="#[1e68ddc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_GetStatusBit
+<LI><a href="#[1e68e18]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_GetStatusReg
+<LI><a href="#[1e68e54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetWaterMark
+<LI><a href="#[1e68e90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetTriggerInt
+<LI><a href="#[1e68ecc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_FIFOModeEnable
+<LI><a href="#[1e68f80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_Get6DPosition
+<LI><a href="#[1e68fbc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetInt6D4DConfiguration
+<LI><a href="#[1e68ff8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetIntMode
+<LI><a href="#[1e69034]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetIntConfiguration
+<LI><a href="#[1e69070]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ResetInt1Latch
+<LI><a href="#[1e690ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_Int1LatchEnable
+<LI><a href="#[1e690e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_GetClickResponse
+<LI><a href="#[1e69214]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetClickCFG
+<LI><a href="#[1e69250]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetInt2Pin
+<LI><a href="#[1e6928c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetInt1Pin
+<LI><a href="#[1e692c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetFilterDataSel
+<LI><a href="#[1e69304]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetHPFCutOFF
+<LI><a href="#[1e69340]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetHPFMode
+<LI><a href="#[1e6937c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_HPFAOI2Enable
+<LI><a href="#[1e693b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_HPFAOI1Enable
+<LI><a href="#[1e693f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_HPFClickEnable
+<LI><a href="#[1e69430]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetSelfTest
+<LI><a href="#[1e6946c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetBLE
+<LI><a href="#[1e694a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetBDU
+<LI><a href="#[1e694e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetFullScale
+<LI><a href="#[1e69520]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetAxis
+<LI><a href="#[1e6955c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetMode
+<LI><a href="#[1e69598]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_GetTempRaw
+<LI><a href="#[1e695d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_GetAuxRaw
+<LI><a href="#[1e69610]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetADCAux
+<LI><a href="#[1e6964c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetTemperature
+<LI><a href="#[1e69688]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetODR
+<LI><a href="#[1e696c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_GetStatusAUXBit
+<LI><a href="#[1e69700]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_GetStatusAUX
+<LI><a href="#[1e6973c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_GetWHO_AM_I
+</UL>
+
+<P><STRONG><a name="[1e69778]"></a>LIS3DH_WriteReg</STRONG> (Thumb, 22 bytes, Stack size 16 bytes, lis3dh_driver.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = LIS3DH_WriteReg &rArr; SPI2_ReadWriteByte
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e68bfc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI2_ReadWriteByte
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e68c38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetSPIInterface
+<LI><a href="#[1e68e54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetWaterMark
+<LI><a href="#[1e68e90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetTriggerInt
+<LI><a href="#[1e68ecc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_FIFOModeEnable
+<LI><a href="#[1e68f08]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetInt1Duration
+<LI><a href="#[1e68f44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetInt1Threshold
+<LI><a href="#[1e68fbc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetInt6D4DConfiguration
+<LI><a href="#[1e68ff8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetIntMode
+<LI><a href="#[1e69034]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetIntConfiguration
+<LI><a href="#[1e690ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_Int1LatchEnable
+<LI><a href="#[1e69124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetClickWINDOW
+<LI><a href="#[1e69160]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetClickLATENCY
+<LI><a href="#[1e6919c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetClickLIMIT
+<LI><a href="#[1e691d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetClickTHS
+<LI><a href="#[1e69214]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetClickCFG
+<LI><a href="#[1e69250]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetInt2Pin
+<LI><a href="#[1e6928c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetInt1Pin
+<LI><a href="#[1e692c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetFilterDataSel
+<LI><a href="#[1e69304]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetHPFCutOFF
+<LI><a href="#[1e69340]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetHPFMode
+<LI><a href="#[1e6937c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_HPFAOI2Enable
+<LI><a href="#[1e693b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_HPFAOI1Enable
+<LI><a href="#[1e693f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_HPFClickEnable
+<LI><a href="#[1e69430]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetSelfTest
+<LI><a href="#[1e6946c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetBLE
+<LI><a href="#[1e694a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetBDU
+<LI><a href="#[1e694e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetFullScale
+<LI><a href="#[1e69520]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetAxis
+<LI><a href="#[1e6955c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetMode
+<LI><a href="#[1e69610]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetADCAux
+<LI><a href="#[1e6964c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetTemperature
+<LI><a href="#[1e69688]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetODR
+</UL>
+
+<P><STRONG><a name="[1e6973c]"></a>LIS3DH_GetWHO_AM_I</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[1e69700]"></a>LIS3DH_GetStatusAUX</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[1e696c4]"></a>LIS3DH_GetStatusAUXBit</STRONG> (Thumb, 264 bytes, Stack size 16 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[1e69688]"></a>LIS3DH_SetODR</STRONG> (Thumb, 60 bytes, Stack size 16 bytes, lis3dh_driver.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = LIS3DH_SetODR &rArr; LIS3DH_WriteReg &rArr; SPI2_ReadWriteByte
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e69778]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_WriteReg
+<LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e6a858]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_Init
+</UL>
+
+<P><STRONG><a name="[1e6964c]"></a>LIS3DH_SetTemperature</STRONG> (Thumb, 60 bytes, Stack size 16 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e69778]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_WriteReg
+<LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[1e69610]"></a>LIS3DH_SetADCAux</STRONG> (Thumb, 60 bytes, Stack size 16 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e69778]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_WriteReg
+<LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[1e695d4]"></a>LIS3DH_GetAuxRaw</STRONG> (Thumb, 158 bytes, Stack size 16 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[1e69598]"></a>LIS3DH_GetTempRaw</STRONG> (Thumb, 44 bytes, Stack size 16 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[1e6955c]"></a>LIS3DH_SetMode</STRONG> (Thumb, 208 bytes, Stack size 16 bytes, lis3dh_driver.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = LIS3DH_SetMode &rArr; LIS3DH_WriteReg &rArr; SPI2_ReadWriteByte
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e69778]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_WriteReg
+<LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e6a858]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_Init
+</UL>
+
+<P><STRONG><a name="[1e69520]"></a>LIS3DH_SetAxis</STRONG> (Thumb, 60 bytes, Stack size 16 bytes, lis3dh_driver.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = LIS3DH_SetAxis &rArr; LIS3DH_WriteReg &rArr; SPI2_ReadWriteByte
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e69778]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_WriteReg
+<LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e6a858]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_Init
+</UL>
+
+<P><STRONG><a name="[1e694e4]"></a>LIS3DH_SetFullScale</STRONG> (Thumb, 60 bytes, Stack size 16 bytes, lis3dh_driver.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = LIS3DH_SetFullScale &rArr; LIS3DH_WriteReg &rArr; SPI2_ReadWriteByte
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e69778]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_WriteReg
+<LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e6a858]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_Init
+</UL>
+
+<P><STRONG><a name="[1e694a8]"></a>LIS3DH_SetBDU</STRONG> (Thumb, 60 bytes, Stack size 16 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e69778]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_WriteReg
+<LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[1e6946c]"></a>LIS3DH_SetBLE</STRONG> (Thumb, 60 bytes, Stack size 16 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e69778]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_WriteReg
+<LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[1e69430]"></a>LIS3DH_SetSelfTest</STRONG> (Thumb, 60 bytes, Stack size 16 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e69778]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_WriteReg
+<LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[1e693f4]"></a>LIS3DH_HPFClickEnable</STRONG> (Thumb, 60 bytes, Stack size 16 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e69778]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_WriteReg
+<LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[1e693b8]"></a>LIS3DH_HPFAOI1Enable</STRONG> (Thumb, 56 bytes, Stack size 16 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e69778]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_WriteReg
+<LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[1e6937c]"></a>LIS3DH_HPFAOI2Enable</STRONG> (Thumb, 60 bytes, Stack size 16 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e69778]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_WriteReg
+<LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[1e69340]"></a>LIS3DH_SetHPFMode</STRONG> (Thumb, 60 bytes, Stack size 16 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e69778]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_WriteReg
+<LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[1e69304]"></a>LIS3DH_SetHPFCutOFF</STRONG> (Thumb, 68 bytes, Stack size 16 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e69778]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_WriteReg
+<LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[1e692c8]"></a>LIS3DH_SetFilterDataSel</STRONG> (Thumb, 60 bytes, Stack size 16 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e69778]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_WriteReg
+<LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[1e6928c]"></a>LIS3DH_SetInt1Pin</STRONG> (Thumb, 54 bytes, Stack size 16 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e69778]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_WriteReg
+<LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[1e69250]"></a>LIS3DH_SetInt2Pin</STRONG> (Thumb, 54 bytes, Stack size 16 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e69778]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_WriteReg
+<LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[1e69214]"></a>LIS3DH_SetClickCFG</STRONG> (Thumb, 62 bytes, Stack size 16 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e69778]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_WriteReg
+<LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[1e691d8]"></a>LIS3DH_SetClickTHS</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e69778]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_WriteReg
+</UL>
+
+<P><STRONG><a name="[1e6919c]"></a>LIS3DH_SetClickLIMIT</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e69778]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_WriteReg
+</UL>
+
+<P><STRONG><a name="[1e69160]"></a>LIS3DH_SetClickLATENCY</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e69778]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_WriteReg
+</UL>
+
+<P><STRONG><a name="[1e69124]"></a>LIS3DH_SetClickWINDOW</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e69778]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_WriteReg
+</UL>
+
+<P><STRONG><a name="[1e690e8]"></a>LIS3DH_GetClickResponse</STRONG> (Thumb, 296 bytes, Stack size 16 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[1e690ac]"></a>LIS3DH_Int1LatchEnable</STRONG> (Thumb, 60 bytes, Stack size 16 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e69778]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_WriteReg
+<LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[1e69070]"></a>LIS3DH_ResetInt1Latch</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[1e69034]"></a>LIS3DH_SetIntConfiguration</STRONG> (Thumb, 56 bytes, Stack size 16 bytes, lis3dh_driver.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = LIS3DH_SetIntConfiguration &rArr; LIS3DH_WriteReg &rArr; SPI2_ReadWriteByte
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e69778]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_WriteReg
+<LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e6a858]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_Init
+</UL>
+
+<P><STRONG><a name="[1e68ff8]"></a>LIS3DH_SetIntMode</STRONG> (Thumb, 60 bytes, Stack size 16 bytes, lis3dh_driver.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = LIS3DH_SetIntMode &rArr; LIS3DH_WriteReg &rArr; SPI2_ReadWriteByte
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e69778]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_WriteReg
+<LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e6a858]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_Init
+</UL>
+
+<P><STRONG><a name="[1e68fbc]"></a>LIS3DH_SetInt6D4DConfiguration</STRONG> (Thumb, 186 bytes, Stack size 16 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e69778]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_WriteReg
+<LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[1e68f80]"></a>LIS3DH_Get6DPosition</STRONG> (Thumb, 104 bytes, Stack size 16 bytes, lis3dh_driver.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = LIS3DH_Get6DPosition &rArr; LIS3DH_ReadReg &rArr; SPI2_ReadWriteByte
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e6a894]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_Check
+</UL>
+
+<P><STRONG><a name="[1e68f44]"></a>LIS3DH_SetInt1Threshold</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, lis3dh_driver.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = LIS3DH_SetInt1Threshold &rArr; LIS3DH_WriteReg &rArr; SPI2_ReadWriteByte
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e69778]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_WriteReg
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e6a858]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_Init
+</UL>
+
+<P><STRONG><a name="[1e68f08]"></a>LIS3DH_SetInt1Duration</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e69778]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_WriteReg
+</UL>
+
+<P><STRONG><a name="[1e68ecc]"></a>LIS3DH_FIFOModeEnable</STRONG> (Thumb, 522 bytes, Stack size 16 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e69778]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_WriteReg
+<LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[1e68e90]"></a>LIS3DH_SetTriggerInt</STRONG> (Thumb, 60 bytes, Stack size 16 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e69778]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_WriteReg
+<LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[1e68e54]"></a>LIS3DH_SetWaterMark</STRONG> (Thumb, 64 bytes, Stack size 16 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e69778]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_WriteReg
+<LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[1e68e18]"></a>LIS3DH_GetStatusReg</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[1e68ddc]"></a>LIS3DH_GetStatusBit</STRONG> (Thumb, 268 bytes, Stack size 16 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[1e68da0]"></a>LIS3DH_GetAccAxesRaw</STRONG> (Thumb, 114 bytes, Stack size 24 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[1e68d64]"></a>LIS3DH_GetInt1Src</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[1e68d28]"></a>LIS3DH_GetInt1SrcBit</STRONG> (Thumb, 234 bytes, Stack size 16 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[1e68cec]"></a>LIS3DH_GetFifoSourceReg</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[1e68cb0]"></a>LIS3DH_GetFifoSourceBit</STRONG> (Thumb, 120 bytes, Stack size 16 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[1e68c74]"></a>LIS3DH_GetFifoSourceFSS</STRONG> (Thumb, 38 bytes, Stack size 16 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[1e68c38]"></a>LIS3DH_SetSPIInterface</STRONG> (Thumb, 56 bytes, Stack size 16 bytes, lis3dh_driver.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e69778]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_WriteReg
+<LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+</UL>
+
+<P><STRONG><a name="[1e6a858]"></a>LIS3DH_Init</STRONG> (Thumb, 82 bytes, Stack size 8 bytes, lis3dh_driver.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = LIS3DH_Init &rArr; LIS3DH_SetIntMode &rArr; LIS3DH_WriteReg &rArr; SPI2_ReadWriteByte
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e68f44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetInt1Threshold
+<LI><a href="#[1e68ff8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetIntMode
+<LI><a href="#[1e69034]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetIntConfiguration
+<LI><a href="#[1e694e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetFullScale
+<LI><a href="#[1e69520]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetAxis
+<LI><a href="#[1e6955c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetMode
+<LI><a href="#[1e69688]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_SetODR
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e6a948]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[1e6a894]"></a>LIS3DH_Check</STRONG> (Thumb, 90 bytes, Stack size 16 bytes, lis3dh_driver.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = LIS3DH_Check &rArr; LIS3DH_Get6DPosition &rArr; LIS3DH_ReadReg &rArr; SPI2_ReadWriteByte
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e68f80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_Get6DPosition
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e6a948]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[1e68878]"></a>SPI1_ReadWriteByte</STRONG> (Thumb, 50 bytes, Stack size 8 bytes, spi.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e686d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_I2S_SendData
+<LI><a href="#[1e68710]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_I2S_ReceiveData
+<LI><a href="#[1e6874c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_I2S_GetFlagStatus
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e6883c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI1_Init
+</UL>
+
+<P><STRONG><a name="[1e6883c]"></a>SPI1_Init</STRONG> (Thumb, 128 bytes, Stack size 32 bytes, spi.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e68698]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Init
+<LI><a href="#[1e68788]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Cmd
+<LI><a href="#[1e68878]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI1_ReadWriteByte
+<LI><a href="#[1e6a060]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB2PeriphClockCmd
+<LI><a href="#[1e6a0d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Init
+</UL>
+
+<P><STRONG><a name="[1e68800]"></a>SPI1_SetSpeed</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, spi.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e68788]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Cmd
+</UL>
+
+<P><STRONG><a name="[1e68bfc]"></a>SPI2_ReadWriteByte</STRONG> (Thumb, 50 bytes, Stack size 8 bytes, spi.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = SPI2_ReadWriteByte
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e686d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_I2S_SendData
+<LI><a href="#[1e68710]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_I2S_ReceiveData
+<LI><a href="#[1e6874c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_I2S_GetFlagStatus
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e69778]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_WriteReg
+<LI><a href="#[1e697b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS3DH_ReadReg
+<LI><a href="#[1e6a768]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI2_Init
+</UL>
+
+<P><STRONG><a name="[1e6a768]"></a>SPI2_Init</STRONG> (Thumb, 130 bytes, Stack size 32 bytes, spi.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = SPI2_Init &rArr; GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e68698]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Init
+<LI><a href="#[1e68788]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Cmd
+<LI><a href="#[1e687c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB1PeriphClockCmd
+<LI><a href="#[1e68bfc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI2_ReadWriteByte
+<LI><a href="#[1e6a060]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB2PeriphClockCmd
+<LI><a href="#[1e6a0d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e6a948]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[1e6a72c]"></a>SPI2_SetSpeed</STRONG> (Thumb, 42 bytes, Stack size 8 bytes, spi.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = SPI2_SetSpeed
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e68788]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Cmd
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e6a948]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[1e67f54]"></a>SysTick_Init</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, systick.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e67edc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_CLKSourceConfig
+</UL>
+
+<P><STRONG><a name="[1e67f18]"></a>delay_us</STRONG> (Thumb, 68 bytes, Stack size 0 bytes, systick.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e6a024]"></a>delay_ms</STRONG> (Thumb, 70 bytes, Stack size 0 bytes, systick.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[1e6a7a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MotorREV
+<LI><a href="#[1e6a81c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MotorFWD
+<LI><a href="#[1e6a8d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;KEY_Scan
+</UL>
+
+<P><STRONG><a name="[1e67b58]"></a>NVIC_PriorityGroupConfig</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, misc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e67b1c]"></a>NVIC_Init</STRONG> (Thumb, 102 bytes, Stack size 16 bytes, misc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e67ae0]"></a>NVIC_SetVectorTable</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, misc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e67aa4]"></a>NVIC_SystemLPConfig</STRONG> (Thumb, 38 bytes, Stack size 0 bytes, misc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e67edc]"></a>SysTick_CLKSourceConfig</STRONG> (Thumb, 40 bytes, Stack size 0 bytes, misc.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[1e67f54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Init
+</UL>
+
+<P><STRONG><a name="[1e67720]"></a>GPIO_DeInit</STRONG> (Thumb, 172 bytes, Stack size 8 bytes, stm32f10x_gpio.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e6739c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB2PeriphResetCmd
+</UL>
+
+<P><STRONG><a name="[1e676e4]"></a>GPIO_AFIODeInit</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, stm32f10x_gpio.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e6739c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB2PeriphResetCmd
+</UL>
+
+<P><STRONG><a name="[1e6a0d8]"></a>GPIO_Init</STRONG> (Thumb, 268 bytes, Stack size 20 bytes, stm32f10x_gpio.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = GPIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e6883c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI1_Init
+<LI><a href="#[1e6a768]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI2_Init
+<LI><a href="#[1e6a7e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MotorInit
+<LI><a href="#[1e6a90c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;KEY_Init
+</UL>
+
+<P><STRONG><a name="[1e676a8]"></a>GPIO_StructInit</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f10x_gpio.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e6a09c]"></a>GPIO_ReadInputDataBit</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f10x_gpio.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[1e6a8d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;KEY_Scan
+</UL>
+
+<P><STRONG><a name="[1e6766c]"></a>GPIO_ReadInputData</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, stm32f10x_gpio.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e67630]"></a>GPIO_ReadOutputDataBit</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f10x_gpio.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e675f4]"></a>GPIO_ReadOutputData</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, stm32f10x_gpio.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e675b8]"></a>GPIO_SetBits</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f10x_gpio.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e6757c]"></a>GPIO_ResetBits</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f10x_gpio.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e67540]"></a>GPIO_WriteBit</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f10x_gpio.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e69c64]"></a>GPIO_Write</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f10x_gpio.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[1e6a7a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MotorREV
+<LI><a href="#[1e6a81c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MotorFWD
+</UL>
+
+<P><STRONG><a name="[1e67504]"></a>GPIO_PinLockConfig</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f10x_gpio.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e674c8]"></a>GPIO_EventOutputConfig</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, stm32f10x_gpio.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e6748c]"></a>GPIO_EventOutputCmd</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f10x_gpio.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e67450]"></a>GPIO_PinRemapConfig</STRONG> (Thumb, 136 bytes, Stack size 20 bytes, stm32f10x_gpio.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e67414]"></a>GPIO_EXTILineConfig</STRONG> (Thumb, 60 bytes, Stack size 12 bytes, stm32f10x_gpio.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e673d8]"></a>GPIO_ETH_MediaInterfaceConfig</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, stm32f10x_gpio.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e66f28]"></a>RCC_DeInit</STRONG> (Thumb, 64 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e66eec]"></a>RCC_HSEConfig</STRONG> (Thumb, 70 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e66eb0]"></a>RCC_GetFlagStatus</STRONG> (Thumb, 56 bytes, Stack size 8 bytes, stm32f10x_rcc.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[1e66e74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_WaitForHSEStartUp
+</UL>
+
+<P><STRONG><a name="[1e66e74]"></a>RCC_WaitForHSEStartUp</STRONG> (Thumb, 48 bytes, Stack size 16 bytes, stm32f10x_rcc.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e66eb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_GetFlagStatus
+</UL>
+
+<P><STRONG><a name="[1e66e38]"></a>RCC_AdjustHSICalibrationValue</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e66dfc]"></a>RCC_HSICmd</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e66dc0]"></a>RCC_PLLConfig</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e66d84]"></a>RCC_PLLCmd</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e66d48]"></a>RCC_SYSCLKConfig</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e66d0c]"></a>RCC_GetSYSCLKSource</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e66cd0]"></a>RCC_HCLKConfig</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e66c94]"></a>RCC_PCLK1Config</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e66c58]"></a>RCC_PCLK2Config</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e66c1c]"></a>RCC_ITConfig</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e66be0]"></a>RCC_USBCLKConfig</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e66ba4]"></a>RCC_ADCCLKConfig</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e66b68]"></a>RCC_LSEConfig</STRONG> (Thumb, 50 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e66b2c]"></a>RCC_LSICmd</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e66af0]"></a>RCC_RTCCLKConfig</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e66ab4]"></a>RCC_RTCCLKCmd</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e66a78]"></a>RCC_GetClocksFreq</STRONG> (Thumb, 194 bytes, Stack size 12 bytes, stm32f10x_rcc.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[1e664d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2S_Init
+</UL>
+
+<P><STRONG><a name="[1e66a3c]"></a>RCC_AHBPeriphClockCmd</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e6a060]"></a>RCC_APB2PeriphClockCmd</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[1e6883c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI1_Init
+<LI><a href="#[1e6a768]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI2_Init
+<LI><a href="#[1e6a7e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MotorInit
+<LI><a href="#[1e6a90c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;KEY_Init
+</UL>
+
+<P><STRONG><a name="[1e687c4]"></a>RCC_APB1PeriphClockCmd</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[1e6a768]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI2_Init
+</UL>
+
+<P><STRONG><a name="[1e6739c]"></a>RCC_APB2PeriphResetCmd</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[1e66514]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_I2S_DeInit
+<LI><a href="#[1e676e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_AFIODeInit
+<LI><a href="#[1e67720]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_DeInit
+</UL>
+
+<P><STRONG><a name="[1e66a00]"></a>RCC_APB1PeriphResetCmd</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[1e66514]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_I2S_DeInit
+</UL>
+
+<P><STRONG><a name="[1e669c4]"></a>RCC_BackupResetCmd</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e66988]"></a>RCC_ClockSecuritySystemCmd</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e6694c]"></a>RCC_MCOConfig</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e66910]"></a>RCC_ClearFlag</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e668d4]"></a>RCC_GetITStatus</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e66898]"></a>RCC_ClearITPendingBit</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e66514]"></a>SPI_I2S_DeInit</STRONG> (Thumb, 76 bytes, Stack size 8 bytes, stm32f10x_spi.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e66a00]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB1PeriphResetCmd
+<LI><a href="#[1e6739c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB2PeriphResetCmd
+</UL>
+
+<P><STRONG><a name="[1e68698]"></a>SPI_Init</STRONG> (Thumb, 60 bytes, Stack size 8 bytes, stm32f10x_spi.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = SPI_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e6883c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI1_Init
+<LI><a href="#[1e6a768]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI2_Init
+</UL>
+
+<P><STRONG><a name="[1e664d8]"></a>I2S_Init</STRONG> (Thumb, 216 bytes, Stack size 56 bytes, stm32f10x_spi.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1e66a78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_GetClocksFreq
+</UL>
+
+<P><STRONG><a name="[1e6649c]"></a>SPI_StructInit</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, stm32f10x_spi.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e66460]"></a>I2S_StructInit</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f10x_spi.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e68788]"></a>SPI_Cmd</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, stm32f10x_spi.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[1e68800]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI1_SetSpeed
+<LI><a href="#[1e6883c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI1_Init
+<LI><a href="#[1e6a72c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI2_SetSpeed
+<LI><a href="#[1e6a768]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI2_Init
+</UL>
+
+<P><STRONG><a name="[1e66424]"></a>I2S_Cmd</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, stm32f10x_spi.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e663e8]"></a>SPI_I2S_ITConfig</STRONG> (Thumb, 36 bytes, Stack size 16 bytes, stm32f10x_spi.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e663ac]"></a>SPI_I2S_DMACmd</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, stm32f10x_spi.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e686d4]"></a>SPI_I2S_SendData</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f10x_spi.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[1e68878]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI1_ReadWriteByte
+<LI><a href="#[1e68bfc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI2_ReadWriteByte
+</UL>
+
+<P><STRONG><a name="[1e68710]"></a>SPI_I2S_ReceiveData</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f10x_spi.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[1e68878]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI1_ReadWriteByte
+<LI><a href="#[1e68bfc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI2_ReadWriteByte
+</UL>
+
+<P><STRONG><a name="[1e66370]"></a>SPI_NSSInternalSoftwareConfig</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, stm32f10x_spi.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e66334]"></a>SPI_SSOutputCmd</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, stm32f10x_spi.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e662f8]"></a>SPI_DataSizeConfig</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f10x_spi.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e662bc]"></a>SPI_TransmitCRC</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f10x_spi.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e66280]"></a>SPI_CalculateCRC</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, stm32f10x_spi.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e66244]"></a>SPI_GetCRC</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f10x_spi.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e66208]"></a>SPI_GetCRCPolynomial</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f10x_spi.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e661cc]"></a>SPI_BiDirectionalLineConfig</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, stm32f10x_spi.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e6874c]"></a>SPI_I2S_GetFlagStatus</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f10x_spi.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[1e68878]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI1_ReadWriteByte
+<LI><a href="#[1e68bfc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI2_ReadWriteByte
+</UL>
+
+<P><STRONG><a name="[1e66190]"></a>SPI_I2S_ClearFlag</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f10x_spi.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e66154]"></a>SPI_I2S_GetITStatus</STRONG> (Thumb, 52 bytes, Stack size 20 bytes, stm32f10x_spi.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e66118]"></a>SPI_I2S_ClearITPendingBit</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, stm32f10x_spi.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e65e84]"></a>__use_two_region_memory</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e65e48]"></a>__rt_heap_escrow$2region</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e65e0c]"></a>__rt_heap_expand$2region</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e65344]"></a>__user_setup_stackheap</STRONG> (Thumb, 74 bytes, Stack size 8 bytes, sys_stackheap_outer.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8 + Unknown Stack Size
+<LI>Call Chain = __user_setup_stackheap
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e64750]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_perproc_libspace
+<LI><a href="#[1e6c748]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_initial_stackheap
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e65470]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_sh
+</UL>
+
+<P><STRONG><a name="[1e651dc]"></a>exit</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, exit.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[1e64660]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_exit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e6568c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_main
+</UL>
+
+<P><STRONG><a name="[1e6478c]"></a>__user_libspace</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, libspace.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e64750]"></a>__user_perproc_libspace</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, libspace.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[1e65344]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_setup_stackheap
+</UL>
+
+<P><STRONG><a name="[1e64714]"></a>__user_perthread_libspace</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, libspace.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e626bc]"></a>_sys_exit</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, sys_exit.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[1e629c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_exit_exit
+</UL>
+
+<P><STRONG><a name="[1e61e88]"></a>__I$use$semihosting</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, use_no_semi.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> sys_exit.o(.text)
+</UL>
+<P><STRONG><a name="[1e61e4c]"></a>__use_no_semihosting_swi</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, use_no_semi.o(.text), UNUSED)
+<P>
+<H3>
+Local Symbols
+</H3><P>
+<H3>
+Undefined Global Symbols
+</H3><HR></body></html>
